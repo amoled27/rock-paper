@@ -52,6 +52,7 @@
 }
 
 .kard {
+  cursor: pointer;
   padding: 30px;
   margin: 25px;
   border: 6px solid #000;
@@ -67,4 +68,36 @@ h1 {
   color: #854ca8;
   font-size: 68px;
   font-weight: bold;
+}
+
+@media (max-width: 1140px) {
+  .kard {
+    padding: 10px;
+    margin: 10px;
+  }
+  .card-container {
+    padding: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .card-container {
+    padding: 10px;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  .card-container {
+    padding: 5px;
+  }
+  .kard {
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+  }
 }
